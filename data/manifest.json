@@ -1,0 +1,32 @@
+{
+  "target": 100000000,
+  "totalRecords": 100000000,
+  "activeChunks": 10000,
+  "spheres": [
+    "polymaths",
+    "savants",
+    "prodigies",
+    "physiology",
+    "antiquities",
+    "eureka",
+    "neuroscience",
+    "genetics",
+    "cosmos",
+    "manuscripts"
+  ],
+  "languages": [
+    "ro",
+    "en",
+    "it",
+    "fr",
+    "de",
+    "es",
+    "pt",
+    "zh",
+    "hi",
+    "ja"
+  ],
+  "updatedAt": "2026-08-27T01:45:14.681Z",
+  "engine": "The Silent Sphinx Infinite-Stream Apple Silicon Mass Engine (Constant Memory)",
+  "hardware": "Apple Silicon Mac Studio (Unified High-Bandwidth Memory)"
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Silent Sphinx — Coming Soon</title>
+  <meta name="description" content="When the Sphinx Speaks, Technology Makes Sense. The doors of the Digital Era Library of Alexandria with 100 Million Chronicles will open soon.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" href="sphinx_logo.png">
+
+  <style>
+    :root {
+      --font-cinzel: 'Cinzel', Georgia, serif;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-body: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #020614;
+      color: #ffffff;
+      font-family: var(--font-body);
+    }
+
+    .bg-wrap {
+      position: absolute;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 38%;
+      filter: brightness(0.95) contrast(1.05);
+    }
+
+    .bg-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(2, 6, 20, 0.92) 0%, rgba(2, 6, 20, 0.35) 35%, transparent 65%);
+      z-index: 2;
+    }
+
+    .content-wrap {
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 40px 24px 75px 24px;
+      text-align: center;
+    }
+
+    .coming-soon-badge {
+      font-family: var(--font-cinzel);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: #38bdf8;
+      background: rgba(8, 20, 42, 0.82);
+      border: 1.5px solid rgba(56, 189, 248, 0.55);
+      padding: 7px 24px;
+      border-radius: 9999px;
+      margin-bottom: 18px;
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.3);
+      backdrop-filter: blur(10px);
+      text-transform: uppercase;
+    }
+
+    .golden-slogan {
+      font-family: var(--font-cinzel);
+      font-size: clamp(1.8rem, 4.2vw, 3.2rem);
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      color: #fce69a;
+      margin-bottom: 14px;
+      text-shadow: 
+        0 3px 10px rgba(0, 0, 0, 0.98),
+        0 0 30px rgba(245, 158, 11, 0.55),
+        0 0 60px rgba(0, 0, 0, 0.95);
+      line-height: 1.25;
+      max-width: 1200px;
+    }
+
+    .alexandria-announcement {
+      font-family: var(--font-serif);
+      font-size: clamp(1.15rem, 2.2vw, 1.55rem);
+      font-style: italic;
+      color: #e2e8f0;
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.98);
+      max-width: 900px;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 768px) {
+      .content-wrap {
+        padding-bottom: 50px;
+      }
+      .coming-soon-badge {
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-wrap">
+    <img src="hero_sphinx_pure.png" onerror="if(this.src.indexOf('hero_sphinx.png')===-1)this.src='hero_sphinx.png';" alt="The Silent Sphinx - When the Sphinx Speaks, Technology Makes Sense" class="bg-img">
+  </div>
+  <div class="bg-overlay"></div>
+
+  <main class="content-wrap">
+    <div class="coming-soon-badge">✦ COMING SOON ✦</div>
+    <h1 class="golden-slogan">When the Sphinx Speaks, Technology Makes Sense</h1>
+    <p class="alexandria-announcement">The doors of the “Digital Era Library of Alexandria with 100 Million Chronicles” will open soon.</p>
+  </main>
+
+</body>
+</html>

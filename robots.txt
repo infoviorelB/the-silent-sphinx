@@ -1,0 +1,11 @@
+# robots.txt for https://silentsphinx.com
+# The Silent Sphinx - Universal Archive of Human Genius & Cosmic Mysteries
+# Founder & CEO: BOSCAN VIOREL | Domiciliu & Sediu: Roma, Italia | Contact: contact@silentsphinx.com
+
+User-agent: *
+Allow: /
+Allow: /data/level3_archives/
+Allow: /assets/
+
+# Sitemaps
+Sitemap: https://silentsphinx.com/sitemap.xml

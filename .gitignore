@@ -1,0 +1,41 @@
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+Icon
+Thumbs.db
+
+# Huge offline generator chunks (631 GB)
+data/chunks/
+
+# Scratchpad, debug logs & temp files
+scratch/
+*.log
+
+# Security & Private Credentials
+chive API/
+*.docx
+.env
+.env.*
+
+# Marketing & raw uncompressed promotional materials
+Clipuri:reclame /
+Image_2026*.png
+Image_2026*.jpg
+
+# Scratch patch scripts
+patch_*.py
+fix_comma.py
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vercel build output
+.vercel/
+Icon*
+Icon?
+Icon
+assets/visuals/qa_review/
+scripts/
